@@ -1,0 +1,288 @@
+@media screen and (max-width: 1400px) {
+  .hero_section {
+    background: url(../img/hero_img_full.png) right center no-repeat;
+    background-size: cover;
+  }
+  .hero_section_bg {
+    width: 100%;
+    background-color: rgba(0, 75, 177, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  .work_order_img {
+    width: 100px;
+    height: 100px;
+  }
+  .cert_img {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .service_content_wrapper {
+    width: 100%;
+  }
+  form input[type="submit"] {
+    padding: 18px 60px;
+  }
+  .bottom_menu .nav-item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .one_click_order {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu_info, .top_menu .green_button, .lang {
+    margin-top: 20px;
+  }
+  .bottom_menu .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .bottom_menu .nav-link {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .hero_offer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .prod_item {
+    margin-bottom: 20px;
+}
+  .problems_text_wrapper {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .order {
+    order: -1;
+  }
+  .order_2 {
+    order: -1;
+  }
+  .order_3 {
+    order: -2;
+  }
+  .service_item {
+    margin-bottom: 20px;
+    height: 230px;
+  }
+  .projects_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .form_text {
+    margin-bottom: 0;
+  }
+  .form_paragraph {
+    margin-top: 0;
+  }
+  .form_wrapper {
+    margin-top: 20px;
+  }
+  .contacts_card {
+    position: relative;
+    margin: 20px auto 0 auto;
+    top: 0;
+  }
+  .benefits_paragraph {
+    width: 100%;
+  }
+  .scheme_details {
+    margin-top: 20px;
+  }
+  .map_contacts {
+    margin-top: 20px;
+  }
+  .form_title {
+    font-size: 30px;
+    line-height: 1em;
+  }
+  .hidden_form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    justify-content: flex-end;
+  }
+  .bottom_menu .nav-link {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .bottom_menu .nav-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .bottom_menu .nav-item {
+    margin-bottom: 15px;
+  }
+  .top_menu {
+    padding: 20px 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .menu_info {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 100%;
+  }
+  .offer_paragraph, .hero_info {
+    width: 100%;
+  }
+  .hero_info {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .hero_info_item {
+    margin-bottom: 10px;
+  }
+  .hero_info_text br {
+    display: none;
+  }
+  .garant {
+  width: 130px;
+  height: 130px;
+  }
+  .garant span {
+    margin-top: 20px;
+  }
+  .garant span {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .delivery_img {
+    max-width: 70%;
+  }
+  .work_order_item {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .work_order h2 {
+      text-align: center;
+  }
+  .work_dots {
+      display: none !important;
+  }
+  form input[type="submit"] {
+    padding: 18px 30px;
+  }
+  .footer_bottom_content a {
+    margin-bottom: 15px;
+  }
+  .benefits_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .benefits_paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .looked_item {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .form_title {
+    font-size: 20px;
+    line-height: 1em;
+  }
+}
+@media screen and (max-width: 576px) {
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .thanks_letter_item img {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .project_item_title {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .project_item_content {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+  }   
+  form input[type="text"], form input[type="submit"], .personal_data {
+    width: 100%;
+  }  
+  .name, .personal_data {
+    margin-bottom: 15px;
+  } 
+  .slick-next, .product_card_section .slick-prev {
+    display: none !important;
+   }
+   .hidden_form {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .menu_info {
+    margin-top: 20px;
+  }
+  .hero_section {
+    height: 75vh;
+  }
+  .offer_paragraph {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  .work_order_item {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .projects_wrapper {
+    grid-template-columns: 1fr;
+  }
+  .project_item_bg, .projects_item {
+    height: 200px;
+  }
+  .contacts_card  {
+    width: 100%;
+  }
+  .contacts_card .green_button {
+    width: 100%;
+  }
+  .product_card_section .slick-list {
+    width: 100%;
+  }
+    
+  .details_item {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .recommendation_slider_item img {
+    width: 100%;
+  }
+  .hidden_form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+.form_search {
+    width: 300px;
+  }
+  .benefits_number {
+    font-size: 100px;
+    line-height: 90px;
+    margin-right: 20px;
+  }
+  .looked_title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  
+}
