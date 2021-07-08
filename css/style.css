@@ -1309,3 +1309,6 @@ height: 300px;
   width: 100%;
   margin-bottom: 20px;
 }
+.video_link img, .scheme_img img {
+  width: 100%;
+}
